@@ -14,5 +14,5 @@ COPY default.conf /etc/nginx/conf.d/
 RUN pip install --upgrade pip && pip install --no-cache-dir -r requirements.txt
 # Expose ports
 EXPOSE 80
-# Command to run Nginx and the Django development serverrr
+# Command to run Nginx and the Django development server meore testi
 CMD service nginx start && python manage.py runserver 0.0.0.0:8000
